@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="result"></p>
+    <script>
+        for (i = 1; i <= 5; i++) {
+            let animal = '';
+            if (i === 1) {
+                animal = "Lion";
+            } else if (i === 2) {
+                animal = "Tiger";
+            } else if (i === 3) {
+                animal = "Cat";
+            } else if (i === 4) {
+                animal = "Snake";
+            } else if (i === 5) {
+                animal = "Fish";
+            }
+            document.getElementById('result').innerHTML += i + '.' + animal + '<br>';
+        }
+    </script>
+</body>
+
+</html>
